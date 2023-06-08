@@ -1,0 +1,69 @@
+.container ol li{
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.start .btn:hover{
+    background: #01fe87;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #01fe87;
+}
+
+.feedback .feedback-btn{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.feedback .feedback-btn:hover{
+    background: #01fe87;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #01fe87;
+}
+
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 60%;
+    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
